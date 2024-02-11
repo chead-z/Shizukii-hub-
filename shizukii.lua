@@ -9,7 +9,7 @@ local Player = game.Players.LocalPlayer --This Will Reveal The Player Name
 }) --This Will Load The Script Hub
 
 function MakeScriptHub()
-         loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))() --Put The Script That Will Load If The Key Is Correct Here
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/chead-z/Shizukii-hub/main/hub"))(); --Put The Script That Will Load If The Key Is Correct Here
 end
 
 OrionLib:MakeNotification({
@@ -77,7 +77,7 @@ Tab:AddButton({
 }) --This Will Check The Key You Entered
 
 Tab:AddButton({
-	Name = "Copy Key",
+	Name = "get Key",
 	Callback = function()
       		setclipboard("https://discord.gg/yuaN9bG8Mm") --This Will Copy The Link Of The Key
   	end    
