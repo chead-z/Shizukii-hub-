@@ -19,7 +19,7 @@ OrionLib:MakeNotification({
 	Time = 5
 }) --Notification
 
-getgenv().Key = "grw076eiwy7" --Put The Correct Key Here
+getgenv().Key = "shizukiiV7" --Put The Correct Key Here
 getgenv().KeyInput = "string" --Require For The Key To Work
 
 local Tab = Window:MakeTab({
@@ -68,7 +68,7 @@ Tab:AddButton({
             wait(2)
             OrionLib:MakeNotification({
                 Name = "Key Incorreta!",
-                Content = "A Key que você digitou está incorreta."
+                Content = "A Key que você digitou está incorreta.",
                 Image = "rbxassetid://4483345998",
                 Time = 5
             })
