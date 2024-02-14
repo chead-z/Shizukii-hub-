@@ -9,8 +9,7 @@ local Player = game.Players.LocalPlayer --This Will Reveal The Player Name
 }) --This Will Load The Script Hub
 
 function MakeScriptHub()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/chead-z/Shizukii-hub/main/hub"))() --Put The Script That Will Load If The Key Is Correct Here
-end
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/chead-z/Shizukii-hub/main/hub"))() --Coloque aqui o script que será carregado quandk colocar a key correta
 
 OrionLib:MakeNotification({
 	Name = "Logado!",
@@ -19,7 +18,7 @@ OrionLib:MakeNotification({
 	Time = 5
 }) --Notification
 
-getgenv().Key = "shizukiiV7" --Put The Correct Key Here
+getgenv().Key = "HYPER_HUB" --Coloque a key certa aqui
 getgenv().KeyInput = "string" --Require For The Key To Work
 
 local Tab = Window:MakeTab({
