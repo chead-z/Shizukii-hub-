@@ -20,7 +20,7 @@ local Player = game.Players.LocalPlayer --This Will Reveal The Player Name
 
 function MakeScriptHub()
 
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/chead-z/Shizukii-hub/main/hub"))() --Put The Script That Will Load If The Key Is Correct Here
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/chead-z/Shizukii-hub/main/hub.lua"))() --Put The Script That Will Load If The Key Is Correct Here
 
 end
 
